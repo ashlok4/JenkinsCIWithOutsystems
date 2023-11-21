@@ -14,7 +14,7 @@ pipeline {
     LifeTimeHostname = 'mdpl-dev.outsystemscloud.com'
     LifeTimeAPIVersion = 2
     // Authentication Specific Variables
-    AuthorizationToken = credentials('LifeTimeServiceAccountToken')
+    AuthorizationToken = credentials('Ak_token')
     // Environments Specification Variables
     /*
     * Pipeline for 5 Environments:
